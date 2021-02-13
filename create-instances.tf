@@ -9,3 +9,7 @@ resource  aws_instance example {
 	user_data	= "userdata.sh"
 }
 #"vpc-860089e2
+
+provider aws {
+	region = "us-west-2"
+}
